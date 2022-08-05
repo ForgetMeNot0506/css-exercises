@@ -4,7 +4,6 @@
   font-family: monospace;
   background: papayawhip;
   flex-direction: row;
-  align-items: space-between;
   justify-content: space-between;
   padding: 10px;
 }
@@ -30,6 +29,7 @@ ul {
   list-style-type: none;
   display:flex;
   flex: 1;
+  margin-right:10px;
   padding-left: 10px;
   padding-right: 10px;
   
@@ -37,26 +37,27 @@ ul {
 
 a {
   display: flex;
-  flex: 1;
   font-size: 22px;
   background: white;
   padding: 8px;
+  margin: 0 10px;
   /* this removes the line under the links */
   text-decoration: none;
  
 }
 
-.left-links{
+.left-links {
     display: flex;
-    flex: 0 1 auto;
-    
-   
-        
+    flex: 0 1 auto;    
     }
     
 .right-links{
     display: flex;
     flex: 0 1 auto;
+    
+.#{
+
+}
    
     
    
