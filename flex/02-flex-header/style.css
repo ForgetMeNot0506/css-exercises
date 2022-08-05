@@ -4,8 +4,8 @@
   font-family: monospace;
   background: papayawhip;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: space-between;
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -30,12 +30,9 @@ ul {
   list-style-type: none;
   display:flex;
   flex: 1;
-  max-width:100px;
   padding-left: 10px;
   padding-right: 10px;
-  justify-content:space-between;
   
- 
 }
 
 a {
@@ -51,16 +48,16 @@ a {
 
 .left-links{
     display: flex;
-    flex: 1;
-    padding-right: 200px;
+    flex: 0 1 auto;
     
+   
+        
     }
     
 .right-links{
     display: flex;
-    flex: 1;
-    padding-left: 200px;
-    flex-direction:row-reverse;
+    flex: 0 1 auto;
+   
     
    
     
